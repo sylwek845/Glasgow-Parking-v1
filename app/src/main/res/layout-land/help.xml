@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Created by: Sylwester Zalewski
+App Name: Glasgow Parking
+Student ID: S1434548
+Glasgow Caledonian University
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Welcome To Glasgow Parking(Alpha)"
+            android:id="@+id/txtWelcome" />
+
+        <ImageView
+            android:id="@+id/item_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/txtWelcome"
+            android:src="@drawable/parking_80" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="More than 80%"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt80"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignTop="@+id/item_image1"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/item_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:layout_below="@+id/item_image1"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/parking_55" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Less than 55%"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt55"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignTop="@+id/item_image2"
+            android:layout_centerHorizontal="true" />
+        <ImageView
+            android:id="@+id/item_image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:layout_below="@+id/item_image2"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/parking_45" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Less than 45%"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt45"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignTop="@+id/item_image3"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/item_image4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:layout_below="@+id/item_image3"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/parking_35" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Less than 35%"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt35"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignTop="@+id/item_image4"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/item_image5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:layout_below="@+id/item_image4"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/parking_25" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Less than 25%"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt25"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignTop="@+id/item_image5"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/item_image6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:layout_below="@+id/item_image5"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/parking_15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Less than 15%"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt15"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignTop="@+id/item_image6"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/item_image7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:layout_below="@+id/item_image6"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/parking_05" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Less than 5%"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt05"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignTop="@+id/item_image7"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/item_image8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:layout_below="@+id/item_image7"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/parking_full" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="No Spaces"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txtfull"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignTop="@+id/item_image8"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/item_image9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:layout_below="@+id/item_image8"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/parking_closed" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Closed"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txtclosed"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignTop="@+id/item_image9"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>

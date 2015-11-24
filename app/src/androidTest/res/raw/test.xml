@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DirectionsResponse>
+<status>REQUEST_DENIED</status>
+#<error_message>Invalid request. Missing the 'origin' parameter.</error_message>
+</DirectionsResponse>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Glasgow Parking</string>
+
+    <string-array name="menu_array">
+        <item>Total ASC</item>
+        <item>Total DESC</item>
+        <item>Percentage ASC</item>
+        <item>Percentage DESC</item>
+        <item>Distance from Parking</item>
+
+    </string-array>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+
+</resources>

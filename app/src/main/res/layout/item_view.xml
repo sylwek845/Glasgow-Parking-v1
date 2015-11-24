@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Created by: Sylwester Zalewski
+App Name: Glasgow Parking
+Student ID: S1434548
+Glasgow Caledonian University
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="3dp"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:maxHeight="95dp"
+        android:maxWidth="95dp"
+        android:src="@drawable/parking_35" />
+
+    <TextView
+        android:id="@+id/item_txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="right" />
+
+    <TextView
+        android:id="@+id/item_txtTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_txtSpacesLeft"
+        android:layout_marginLeft="110dp"
+        android:text="Total Spaces: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/item_occupiedSpaces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_below="@+id/item_txtTotal"
+        android:text="Occupied Spaces: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/item_txtSpacesLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_txtName"
+        android:layout_marginLeft="110dp"
+        android:text="Spaces Left:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+
+
+
+
+
+
+
+
+</RelativeLayout>

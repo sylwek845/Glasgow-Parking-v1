@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="sortByTotalASC"
+        android:title="@bool/SortByTotalASC"
+        android:summary="Sort By Total ASC"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="sortByTotalDESC"
+        android:title="@bool/SortByTotalDESC"
+        android:summary="Sort By Total DESC"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="SortByPercentageASC"
+        android:title="@bool/SortByPercentageASC"
+        android:summary="Sort By Percentage ASC"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="SortByPercentageDESC"
+        android:title="@bool/SortByPercentageDESC"
+        android:summary="Sort By Percentage DESC"
+        android:defaultValue="false" />
+
+</PreferenceScreen>
